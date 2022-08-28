@@ -1,0 +1,20 @@
+<div class="card bg-light mb-3">
+    <div class="card-body">
+      <h4><%= link_to post.title, post_path(post)%></h4>
+
+      <div class="text-muted mb-2">
+          <em>Por <%=post.author%> (<%= l post.updated_at , format: :long %>)</em>
+      </div> 
+
+      <p> <%=post.body.truncate(200)%></p>
+
+
+      <p class="text-muted"><%= pluralize(post.comments.count,'Comentário')%></p>
+
+      <%= link_to "Ler artigo", post_path(post), class:'btn btn-success'%>
+      <%= link_to "Editar", edit_post_path(post), class:'btn btn-secondary'%>
+      <%= link_to "Excluir", post_path(post),method: :delete, class:'btn btn-danger',
+        data: {confirm: 'Tem certeza que deseja excluir?'}%>
+  </div>
+</div>
+
