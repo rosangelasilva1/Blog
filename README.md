@@ -1,6 +1,8 @@
 <h1> Blog</h1>
 
-<h2>O objetivo é criar/visualizar posts por ordem de atualização. </h2>
+> Status: Developing ⚠️
+
+<h2>O objetivo é criar/visualizar artigos por ordem de atualização. </h2>
 
 ### Versão:
 <table>
@@ -16,10 +18,11 @@
 
 <h3> Funcionalidades:  </h3>
 
-> Criar  Posts;
+> Ler artigo;
 
-> Editar Posts;
+> Editar;
 
-> Mostrar Posts;
+> Excluir.
 
-> Excluir Posts.
+### Exemplo:
+![image](https://user-images.githubusercontent.com/47992337/187095812-55febf00-4888-4247-8762-63fa07453241.png)
